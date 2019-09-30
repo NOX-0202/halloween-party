@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Mansalva');
+
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: inherit;
+    font-size: 16px;
+}
+
+html, body{
+    background-color: #000;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: 'Mansalva', cursive;
+}
+
+#header{
+    height: 95vh;
+    background-image: url(../img/test.jpg);
+    background-position: center;
+    background-size: cover;
+    display: block; 
+    overflow: hidden;
+}
+
+#header h1{
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+h1{
+    padding: 6.2%;
+    font-weight: 900;
+}
+
+h2{
+    padding-top: 30px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.col-lg{
+    font-size: 1.2rem;
+}
+
+.icons{
+    border-radius: 100%;
+    display: block;
+}
+
+#confirma{
+    padding: 10px;
+    background: purple;
+}
+
+
+input[type="text"],
+input[type="email"],
+textarea{
+    font-size: 1rem;
+    background: transparent;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    width: 50vw; 
+    color: #fff;
+}
+
+.placeholder-white::placeholder,
+textarea{
+    color: #fff;
+    padding-left: 5px;
+}
+
+input[type="submit"]{
+    padding: 2px 50px;
+    background: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+input[type="submit"]:hover{
+    transform: translateY(-.1rem)
+}
+
+iframe{
+    width: 100%;
+    height: 150px;
+}
+
+
+#a{
+    position: absolute;
+}
